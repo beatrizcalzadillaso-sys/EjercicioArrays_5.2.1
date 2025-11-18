@@ -1,6 +1,3 @@
-/**
- * 
- */
 package test;
 
 import java.util.Scanner;
@@ -15,6 +12,7 @@ public class Array5 {
  	
 	public static void main(String[] args) {
 		leerEdad();
+		calcularMedia(listaEdades);
 		for(int i=0; i<listaEdades.length; i++) {
 			System.out.println("--------------------");
 			System.out.println(i+1+"- Edad: "+listaEdades[i]);
@@ -51,5 +49,10 @@ public class Array5 {
 			}
 		} while(cantidad<20);
 		return listaEdades;
+	}
+	
+	private static int calcularMedia(int[] lista) {
+		int mediaEntera=0;
+		return mediaEntera;
 	}
 }
