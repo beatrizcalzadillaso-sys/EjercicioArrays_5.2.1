@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 
  */
-public class Array5 {
+public class Ejercicio1_array {
 
 	private static Scanner teclado = new Scanner(System.in);
 	private static int listaEdades[] = new int[20];
