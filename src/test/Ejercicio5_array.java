@@ -11,6 +11,8 @@ import java.util.Random;
 public class Ejercicio5_array {
 
 	private static char[] lotery= new char[100];
+	private static char[] alphabet = new char[]{ 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+
 	private static int[] lotFrecuency= new int[26];
 	
 	public static void main(String[] args) {
@@ -27,11 +29,11 @@ public class Ejercicio5_array {
 		// Posted by dogbane
 		// Retrieved 2025-11-27, License - CC BY-SA 2.5
 
-		for (int i=0; i<numTiradas; i++) {
+	/*	for (int i=0; i<numTiradas; i++) {
 			Random r = new Random();
 			char c = (char)(r.nextInt(26) + 'a');
-			lotery[i]=c;
-			}
+			lotery[i]=c;    							GENERAR N NUMEROS ALEATORIOS ENTRE EL MAX Y EL MIN QUE SE PASE POR PARAMETRO
+			}*/										 // LUEGO BUSCAR ESOS NUMEROS COMO POSICIONES EN EL ARRAY ALFABETO Y GUARDARLOS EN EL ARRAY CON LAS N TIRADAS
 	}
 	
 	private static void mostrarSorteo(char[] arraySorteo) {
