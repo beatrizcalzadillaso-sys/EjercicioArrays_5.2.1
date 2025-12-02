@@ -3,6 +3,8 @@
  */
 package test;
 
+import java.util.Arrays;
+
 /**
  * 
  */
@@ -23,9 +25,7 @@ public class Ejercicio6_array {
 			table[i]=aleatorio;
 			}
 		System.out.println("---Tabla original---");
-		for (int i=0; i<table.length;i++) {
-			System.out.println(table[i]);
-		}
+		System.out.println(Arrays.toString(table)+"\n");
 	}
 	
 	private static void invertirArray(int[] table) {
@@ -43,12 +43,8 @@ public class Ejercicio6_array {
 	}
 	
 	private static void mostrarArray(int[] table) {
-		System.out.println("---Tabla invertida---");
-		for (int i=0; i<table.length;i++) {
-			System.out.println(table[i]);
-		}
-		
-		//System.out.println(table.toString());
+		System.out.println("---Tabla invertida---");		
+		System.out.println(Arrays.toString(table));
 	}
 
 }
