@@ -22,6 +22,7 @@ public class NotasMulti {
 		imprimir(estudiantes, nProg, nRedes, nBd);
 		// POR ESTUDIANTE
 		aveStudent(estudiantes, nProg, nRedes, nBd);
+		System.out.println("-------------------------------------");
 		// POR ASIGNATURA
 		average("Programacion", nProg);
 		average("Redes", nRedes);
